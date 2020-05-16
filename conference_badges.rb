@@ -5,6 +5,8 @@ def batch_badge_creator(array)
   array= ["Edsger", "Ada", "Charles", "Alan","Grace", "Linus","Matz"]
   array.each do |name|
     array.push("Hello, my name is #{name}.")
+  end
+  retuen 
   
 end 
   
